@@ -20,6 +20,16 @@ An AI-powered e-commerce application that analyzes fashion product images using 
 - Test accuracy: **86.54%**
 - Training epochs: **5**
 
+## Dataset
+
+This project uses the [Fashion Product Images Small](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) dataset from Kaggle.
+
+The dataset contains fashion product images and metadata used for training and evaluating the image classification model.
+
+The full dataset is not included in this repository due to its size.
+
+For best results, the application is expected to perform more consistently on product images that are visually similar to the training dataset.
+
 ## Technologies
 
 - Python
