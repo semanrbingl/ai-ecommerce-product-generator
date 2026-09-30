@@ -1,0 +1,11 @@
+streamlit
+torch
+torchvision
+pillow
+numpy
+opencv-python-headless
+gdown
+openai
+matplotlib
+pandas
+httpx

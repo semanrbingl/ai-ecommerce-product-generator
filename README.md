@@ -1,2 +1,31 @@
-# ai-ecommerce-product-generator
-Deep learning pipeline that classifies fashion product images, explains predictions with Grad-CAM, and generates product descriptions with an LLM.
+# AI E-Commerce Product Generator
+
+An AI-powered e-commerce application that analyzes fashion product images using deep learning and generates product descriptions with an LLM.
+
+## Features
+
+- Fashion product category classification with ResNet50
+- Confidence score for model predictions
+- Grad-CAM visualization for model explainability
+- Image-based product description generation with an LLM
+- Streamlit web application
+
+## Model Performance
+
+- Best validation accuracy: **87.63%**
+- Test accuracy: **86.54%**
+- Training epochs: **5**
+
+## Technologies
+
+- Python
+- PyTorch
+- ResNet50
+- OpenCV
+- Grad-CAM
+- Streamlit
+- OpenAI API
+
+## Project Pipeline
+
+**Product Image → ResNet50 → Category Prediction → Grad-CAM → LLM Product Description**
